@@ -1,0 +1,134 @@
+{
+  "_source": "BIS IS:10500 2012 — Drinking Water Specification",
+  "_standard": "BIS",
+  "_water_type": "DRINKING",
+  "_unit_note": "All limits in mg/L unless stated",
+  "parameters": {
+    "pH": {
+      "min": 6.5,
+      "max": 8.5,
+      "unit": "pH units",
+      "category": "Physical"
+    },
+    "Turbidity": {
+      "min": null,
+      "max": 1.0,
+      "unit": "NTU",
+      "category": "Physical"
+    },
+    "TDS": {
+      "min": null,
+      "max": 500.0,
+      "unit": "mg/L",
+      "category": "Physical"
+    },
+    "Hardness": {
+      "min": null,
+      "max": 200.0,
+      "unit": "mg/L",
+      "category": "Chemical"
+    },
+    "Chloride": {
+      "min": null,
+      "max": 250.0,
+      "unit": "mg/L",
+      "category": "Chemical"
+    },
+    "Nitrate": {
+      "min": null,
+      "max": 45.0,
+      "unit": "mg/L",
+      "category": "Chemical"
+    },
+    "Fluoride": {
+      "min": null,
+      "max": 1.0,
+      "unit": "mg/L",
+      "category": "Chemical"
+    },
+    "Iron": {
+      "min": null,
+      "max": 0.3,
+      "unit": "mg/L",
+      "category": "Chemical"
+    },
+    "Manganese": {
+      "min": null,
+      "max": 0.1,
+      "unit": "mg/L",
+      "category": "Chemical"
+    },
+    "Lead": {
+      "min": null,
+      "max": 0.01,
+      "unit": "mg/L",
+      "category": "Chemical"
+    },
+    "Arsenic": {
+      "min": null,
+      "max": 0.01,
+      "unit": "mg/L",
+      "category": "Chemical"
+    },
+    "Mercury": {
+      "min": null,
+      "max": 0.001,
+      "unit": "mg/L",
+      "category": "Chemical"
+    },
+    "Cadmium": {
+      "min": null,
+      "max": 0.003,
+      "unit": "mg/L",
+      "category": "Chemical"
+    },
+    "Chromium": {
+      "min": null,
+      "max": 0.05,
+      "unit": "mg/L",
+      "category": "Chemical"
+    },
+    "DO": {
+      "min": 6.0,
+      "max": null,
+      "unit": "mg/L",
+      "category": "Chemical"
+    },
+    "Total Coliform": {
+      "min": null,
+      "max": 0.0,
+      "unit": "CFU/100mL",
+      "category": "Biological"
+    },
+    "E. coli": {
+      "min": null,
+      "max": 0.0,
+      "unit": "CFU/100mL",
+      "category": "Biological"
+    },
+    "Electrical Conductivity": {
+      "min": null,
+      "max": 750.0,
+      "unit": "µS/cm",
+      "category": "Physical"
+    },
+    "Calcium": {
+      "min": null,
+      "max": 75.0,
+      "unit": "mg/L",
+      "category": "Chemical"
+    },
+    "Magnesium": {
+      "min": null,
+      "max": 30.0,
+      "unit": "mg/L",
+      "category": "Chemical"
+    },
+    "Sulfate": {
+      "min": null,
+      "max": 200.0,
+      "unit": "mg/L",
+      "category": "Chemical"
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "_source": "CPCB General Standards for Discharge of Environmental Pollutants",
+  "_standard": "CPCB",
+  "_water_type": "WASTEWATER",
+  "_unit_note": "All limits in mg/L unless stated",
+  "parameters": {
+    "pH": {
+      "min": 5.5,
+      "max": 9.0,
+      "unit": "pH units",
+      "category": "Physical"
+    },
+    "Temperature": {
+      "min": null,
+      "max": 40.0,
+      "unit": "°C",
+      "category": "Physical"
+    },
+    "BOD": {
+      "min": null,
+      "max": 30.0,
+      "unit": "mg/L",
+      "category": "Chemical"
+    },
+    "COD": {
+      "min": null,
+      "max": 250.0,
+      "unit": "mg/L",
+      "category": "Chemical"
+    },
+    "TSS": {
+      "min": null,
+      "max": 100.0,
+      "unit": "mg/L",
+      "category": "Chemical"
+    },
+    "TDS": {
+      "min": null,
+      "max": 2100.0,
+      "unit": "mg/L",
+      "category": "Chemical"
+    },
+    "Oil and Grease": {
+      "min": null,
+      "max": 10.0,
+      "unit": "mg/L",
+      "category": "Chemical"
+    },
+    "Nitrate": {
+      "min": null,
+      "max": 10.0,
+      "unit": "mg/L",
+      "category": "Chemical"
+    },
+    "Phosphate": {
+      "min": null,
+      "max": 5.0,
+      "unit": "mg/L",
+      "category": "Chemical"
+    },
+    "Lead": {
+      "min": null,
+      "max": 0.1,
+      "unit": "mg/L",
+      "category": "Chemical"
+    },
+    "Arsenic": {
+      "min": null,
+      "max": 0.2,
+      "unit": "mg/L",
+      "category": "Chemical"
+    },
+    "Mercury": {
+      "min": null,
+      "max": 0.01,
+      "unit": "mg/L",
+      "category": "Chemical"
+    },
+    "Cadmium": {
+      "min": null,
+      "max": 2.0,
+      "unit": "mg/L",
+      "category": "Chemical"
+    },
+    "Chromium": {
+      "min": null,
+      "max": 2.0,
+      "unit": "mg/L",
+      "category": "Chemical"
+    },
+    "Copper": {
+      "min": null,
+      "max": 3.0,
+      "unit": "mg/L",
+      "category": "Chemical"
+    },
+    "Zinc": {
+      "min": null,
+      "max": 5.0,
+      "unit": "mg/L",
+      "category": "Chemical"
+    },
+    "Total Coliform": {
+      "min": null,
+      "max": 1000.0,
+      "unit": "CFU/100mL",
+      "category": "Biological"
+    }
+  }
+}

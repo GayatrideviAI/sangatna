@@ -1,0 +1,42 @@
+{
+  "_source": "IPCC AR6 + MoEFCC India GHG Inventory",
+  "_unit": "kg CO2e per litre (liquids) or per kg (solids/gases)",
+  "fuels": {
+    "DIESEL": {
+      "factor": 2.68,
+      "unit": "kg CO2e/litre",
+      "scope": "Scope 1"
+    },
+    "LPG": {
+      "factor": 2.98,
+      "unit": "kg CO2e/kg",
+      "scope": "Scope 1"
+    },
+    "CNG": {
+      "factor": 2.21,
+      "unit": "kg CO2e/kg",
+      "scope": "Scope 1"
+    },
+    "FURNACE_OIL": {
+      "factor": 3.18,
+      "unit": "kg CO2e/litre",
+      "scope": "Scope 1"
+    },
+    "COAL": {
+      "factor": 2.42,
+      "unit": "kg CO2e/kg",
+      "scope": "Scope 1"
+    },
+    "BIOMASS": {
+      "factor": 0.0,
+      "unit": "kg CO2e/kg",
+      "scope": "Scope 1",
+      "_note": "Carbon neutral under GHG Protocol"
+    },
+    "PETROL": {
+      "factor": 2.31,
+      "unit": "kg CO2e/litre",
+      "scope": "Scope 1"
+    }
+  }
+}
