@@ -36,7 +36,8 @@ from app.api.v1.water_quality import router as water_quality_router
 from app.api.v1.emissions import router as emissions_router
 from app.api.v1.consultants import router as consultants_router
 from app.api.v1.utility_connections import router as utility_connections_router
-
+from app.api.v1.production import router as production_router
+from app.api.v1.brsr import router as brsr_router
 
 @asynccontextmanager
 async def lifespan(application: FastAPI):
@@ -85,3 +86,5 @@ app.include_router(water_quality_router,  prefix="/api/v1")
 app.include_router(emissions_router,      prefix="/api/v1")
 app.include_router(consultants_router,    prefix="/api/v1")
 app.include_router(utility_connections_router, prefix="/api/v1")
+app.include_router(production_router,          prefix="/api/v1")
+app.include_router(brsr_router, prefix="/api/v1")

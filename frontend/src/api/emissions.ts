@@ -18,20 +18,20 @@ export interface EmissionRecord {
 
 export interface EmissionRecordList {
   items:     EmissionRecord[]
-  total:     int
+  total:     number
   page:      number
   page_size: number
   pages:     number
 }
 
-export async function getEmissionsForDocument(
-  activityId: string
+export async function getEmissionByDocument(
+  documentId: string,
 ): Promise<EmissionRecord | null> {
   try {
-    const { data } = await api.get<EmissionRecordList>(
-      `/emissions/?page_size=1`
+    const { data } = await api.get<EmissionRecord>(
+      `/emissions/by-document/${documentId}`
     )
-    return data.items[0] ?? null
+    return data
   } catch {
     return null
   }
@@ -49,4 +49,15 @@ export async function getLatestEmission(
   } catch {
     return null
   }
+}
+
+export async function getEmissionsSummary(
+  periodStart: string,
+  periodEnd: string,
+  financialYear: string,
+) {
+  const { data } = await api.get(
+    `/emissions/summary?period_start=${periodStart}&period_end=${periodEnd}&financial_year=${financialYear}`
+  )
+  return data
 }

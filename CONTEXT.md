@@ -36,6 +36,19 @@ consultant_clients
 ✅ Production records
 ✅ Intelligence: intensity calculator, gap estimator, BRSR readiness
 
+BRSR Lite Report Design 
+Sheet 1 — Cover Company info, FY, generated date ​
+
+Sheet 2 — Energy Scope 1 + 2, monthly breakdown, intensity ​
+
+Sheet 3 — Water Withdrawal, consumption, intensity ​
+
+Sheet 4 — Emissions Scope 1 + 2 summary, source breakdown ​
+
+Sheet 5 — Water Quality Lab results, compliance status ​
+
+Sheet 6 — Data Quality Actual vs estimated, gaps, confidence​
+
 ## Next to build
 ⬜ BRSR Excel report generation
 ⬜ Emissions dashboard (charts + KPIs)

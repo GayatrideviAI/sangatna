@@ -25,6 +25,7 @@ dependencies = [
   "python-dotenv>=1.0",
   "greenlet>=3.5.1",
   "bcrypt>=5.0.0",
+  "openpyxl>=3.1.5",
 ]
 
 [project.optional-dependencies]
